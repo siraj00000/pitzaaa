@@ -1,0 +1,776 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ------logo---------- */
+
+.logo {
+    
+    width: 60%;
+    height: 13% !important;
+}
+
+/* ---navbar---- */
+
+.nav-link:hover {
+    color: rgb(214, 151, 42) !important;
+}
+.navbar-nav ,.nav-link{
+    margin: 10px;
+}
+.navbar {
+    height: 10%;
+    background: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    border-radius: 0px;
+    background-color: yellow;
+    color: white;
+    margin-top: 0px;
+}
+
+/* .dropdown-menu .dropdown-item:hover {
+    background-color: yellow;
+    color: black;
+} */
+
+#home {
+    color: rgb(242, 186, 90) !important;
+}
+
+.cart-r,.fa-shopping-cart {
+    font-size: 130% !important;
+    color: rgb(242, 186, 90) !important;
+}
+
+/* -----links----- */
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    padding: 3%;
+    background-color: rgb(247, 247, 9);
+}
+
+.links .links-li {
+    justify-content: center;
+    color: yellow !important;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* padding: 5%; */
+    font-size: 50px !important;
+}
+
+.links-intro {
+    letter-spacing: .2em;
+    font-size: 20px;
+}
+
+.connect {
+    /* font-family: fantasy !important; */
+    font-size: 45px;
+}
+
+.links-li {
+    list-style: none;
+}
+
+/* -----section---- */
+
+.bg-pic {
+    width: 100%;
+}
+
+.section1 {
+    background-image: url(images/bg-pic.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%;
+}
+
+.pizza {
+    width: 50px;
+    height: 50px;
+}
+
+.restrunt {
+    width: 100%;
+    height: 110%;
+    padding: 15% 0%;
+}
+
+.intro {
+    padding: 1% 10%;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.int-name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10% 25% 1% 10%;
+}
+
+.name {
+    color: rgb(223, 202, 13);
+}
+
+/* ================================section2--------------------------- */
+
+.section2 {
+    background-color: rgb(250, 197, 100);
+    padding-bottom: 5%;
+}
+
+.services {
+    text-align: center;
+    padding: 0 10%;
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+    /* letter-spacing: 0.1em; */
+}
+
+.champs {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.champ {
+    font-size: 65px;
+    letter-spacing: .2em;
+    text-shadow: 3px 5px 5px black;
+    font-weight: bold;
+    padding: 8% 0 6% 0;
+}
+
+/* -------------SECTION3---------- */
+
+.section3 {
+    background-image: url(images/bg-pic.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Meal{
+    margin: 10% 0px;
+}
+
+.card {
+    background-color: rgb(236, 195, 61);
+    height: auto;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+.card-text {
+    color: rgb(126, 116, 116);
+}
+
+/* -------------------------meuu-------------------- */
+
+.r {
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diagram {
+    position: relative;
+    left: 45%;
+    width: 100px;
+    height: 70px;
+}
+
+.diag::before {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    right: 0;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+.diag::after {
+    position: absolute;
+    bottom: 30px;
+    left: -110px;
+    right: 0;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+/* ------------------------menu--------------- */
+
+.menu-icons {
+    width: 100px;
+}
+
+.r-1 {
+    margin: 5px;
+    align-content: center;
+    padding: 5px;
+}
+
+.box {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt {
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+
+.line,.t {
+    position: relative;
+    bottom: 15px;
+    color: rgb(255, 196, 0);
+}
+
+/* -----------------------section3----------------- */
+
+.section4 {
+    background-color: black;
+    padding: 5% 5% 4% 3%;
+    justify-content: space-around;
+}
+
+.f-ul .f-li {
+    list-style: none;
+    display: flex;
+}
+
+.F-P {
+    font-size: 16px;
+    /* word-spacing: .5em; */
+}
+
+.cont {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.q-links {
+    padding-left: 7%;
+}
+
+.fb {
+    font-size: 50px !important;
+    color: white !important;
+    /* border: 1px solid white; */
+    margin: 50px;
+}
+
+.fb:hover {
+    color: yellow !important;
+    font-size: 80px !important;
+}
+
+.ul-f-links {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-f-links .li-f {
+    list-style: none;
+}
+
+/* --------------section5----------- */
+
+.section5 {
+    background-color: rgb(251, 185, 29);
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* --------------------menu page----------------------- */
+
+.wrapper {
+    background-image: url(images/bg-pic.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(48, 48, 48);
+ 
+   
+}
+.fa-chevron-circle-up{
+    font-size: 40px !important;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    color: rgb(196, 194, 194) !important;
+}
+.bg{
+    background-color: transparent;
+    align-self: center;
+    text-align: center;
+    padding-left: 10px !important;
+    
+}
+.bg-text{
+    background-color: transparent !important;
+}
+.cart {
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+.raw {
+    padding: 10% 0px 0 0px;
+    margin: 0;
+}
+.raw1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-text {
+    color: rgb(247, 247, 247);
+    font-size: 12px;
+}
+
+.o-m::before{
+    position: absolute;
+    right: 0;
+    left: 15px;
+    bottom: -15px;
+    text-align: center;
+    content: '';
+    width: 180px;
+    height: 2px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.btn-outline-secondary{
+    border-color: #8d5d05 !important;
+    background-color: #0e0a0086 !important;
+    font-weight: bold;
+    color: #8d5d05;
+    margin: 10px;
+    
+}
+.btn-outline-secondary:hover{
+    width: 110px;
+    background-color: #8d5d05 !important;
+}
+
+
+
+
+/* ------------------salad----------- */
+.raw2{
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.w{
+    margin-bottom: 20%;
+}
+
+
+
+/* --------------------------deals------------------- */
+
+.deal{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.deal-card{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.btn-secondary{
+    background-color: rgb(255, 178, 0) !important;
+    color: black !important;
+}
+
+
+
+/* ============selection----------------- */
+#dropdownMenuButton{
+    width: 100%;
+}
+
+#raw{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: ; */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgb(255, 123, 0);
+    position: absolute;
+    color: black;
+    width: 100%;
+}
+#selection{
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #0503005d;
+    text-align: center;
+    padding: 2% 0px;
+    background-color: #e7c88d1a;
+}
+.chart{
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    height: 400px;
+    overflow: scroll;
+}
+.l-u{
+    color: white;
+    font-weight: bold;
+}
+.chart-sub{
+    padding-top: 5%;
+    border-bottom: 1px solid white;
+}
+.chart-c{
+    padding: 4% 8% 4% 2%;
+}
+.l-p{
+    font-size: 10px;
+    color: gainsboro;
+}
+.map{
+    border: 2px solid rgb(0, 0, 0);
+}
+.l-h::before{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #8d5d05;
+    margin: 0 auto;
+}
+
+/* --------------cart------------ */
+.cart-r{
+    padding-top: 10%;
+    color: white;
+}
+
+.t-r{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.table{ 
+    
+    width: 100%;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    color: black;
+}
+.t2{
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    color: black;
+    vertical-align: top;
+}
+.td{
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+}
+.card-p{
+    display: flex;
+    margin: 5px;
+}
+.card-para{
+    font-size: 14px;
+}
+.required,.a{
+    color: rgb(230, 153, 10);
+}
+.a:hover{
+    text-decoration: none;
+}
+
+
+/* ------------------ */
+form.form-horizontal {
+    display: table;
+    width: 100%;
+    background: #FFF;
+    padding: 20px 10px;
+}
+
+.red-btn{
+    border-radius: 0;
+    border: 1px solid #462e03;
+    background-color: #a37012c9;
+    color: white;
+}
+
+.red-btn:hover{
+    border-radius: 0;
+    border: 1px solid #462e03;
+    background-color: white;
+    color: #926208fd;
+
+}
+
+.red-btn:focus:active{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.table tr td{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* --------------------faqs-------------------- */
+
+.faq{
+    width: 100% !important;
+    padding: 10px !important;
+}
+.btn-block {
+    color: rgb(34, 33, 33);
+
+}
+.btn:focus{
+    box-shadow: none;
+}
+.b{
+    color: rgb(34, 33, 33);
+    background-color: whitesmoke;
+    color: black;
+}
+.faq-h{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.faq-raw{
+    padding-bottom: 10%;
+}
+
+.pmax-accordian h5[aria-expanded="false"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d7";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+.fa-sort-desc{
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+/* ------------gallery------ */
+.gallery{
+    width: 100%;
+    height: 220px;
+    padding: 0;
+}
+.gallery-raw{
+    justify-content: center;
+    padding: 0 0 10% 0;
+}
+
+
+
+
+
+
+/* ----media quirey------ */
+
+@media (max-width: 576px) {
+    
+    .logo {
+        width: 300px;
+        height: 10% !important;
+    }
+    .d-block {
+        height: 600px !important;
+    }
+    .int-name {
+        padding-left: 0px !important;
+    }
+    .intro {
+        padding: 0% !important;
+    }
+    .connect {
+        font-size: 35px;
+    }
+    .links-intro {
+        font-size: 15px;
+    }
+    .champ, .champs {
+        font-size: 45px;
+    }
+    .diagram {
+        left: 41%;
+    }
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        
+    }
+    .card-deal{
+        width: 400px !important;
+    }
+    
+    .card-img{
+        width: 50%;
+    }
+    .fb{
+        font-size: 20px !important;
+    }
+    .fb:hover{
+        font-size: 30px !important;
+    }
+    .fa-sort-desc{
+        position: absolute;
+        right: 10px;
+        top: 25%;
+    }
+    .faq-h{
+        font-size: 30px;
+    }
+    .ta{
+        width: 80%;
+    }
+}
+
+@media (max-width: 404px) {
+    .logo {
+        width: 150px;
+        height: 10% !important;
+    }
+    .navbar {
+        height: 10% !important;
+    }
+    .d-block {
+        height: 30% !important;
+    }
+    .champ, .champs {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .diagram {
+        left: 37%;
+    }
+
+}
+@media (max-width: 414px) {
+    .logo {
+        width: 150px;
+        height: 10% !important;
+    }
+    .navbar {
+        height: 10% !important;
+    }
+    .d-block {
+        height: 30% !important;
+    }
+    .champ, .champs {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .diagram {
+        left: 38%;
+    }
+
+}
+@media (max-width: 360px){
+   .connect{
+    font-size: 25px;
+   }
+   .diagram {
+    left: 36%;
+    }
+}
+@media (max-width: 320px) {
+    .diagram {
+        left: 34%;
+    }
+    .connect{
+        font-size: 25px;
+    }
+    .card-deal{
+        margin-left: 0 !important;
+        width: 15rem !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    .logo {
+        padding-left: 10%;
+    }
+}
+@media (min-width: 1200px) {
+    .logo {
+        padding-left: 20%;
+    }
+}
+@media (min-width: 1600px) {
+    .diagram{
+        left: 47%;
+    }
+
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitzaaa</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="pitzaaa.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+        <a class="navbar-brand" href="#"><img src="images/LogoMakr_4fkoZO.png" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link " id="home" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index1.html">Pizza</a>
+                        <a class="dropdown-item" href="index1.html">Salad</a>
+                        <a class="dropdown-item" href="index1.html">Appetizers</a>
+                        <a class="dropdown-item" href="index1.html">Sandwich</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index3.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Cart<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row cart-r">
+                <h5 class="col o-h">Please review your order below , then "Place Your Order" .</h5>
+            </div>
+         
+            <div class="row t-r">
+
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                    <div class="">
+                        <h1 class="text-white">Order Setting</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <table class="table ta">
+                            <thead>
+                                <tr>
+                                    <th scope="col">ITEM NAME</th>
+                                    <th scope="col">QUANTITY</th>
+                                    <th scope="col">PRICE</th>
+                                    <th scope="col">ACTION</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Food And Drinks : </td>
+                                    <td>PKR 0</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Tax 13% : </td>
+                                    <td>PKR 0</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Discount </td>
+                                    <td>PKR 0 </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Delivery: </td>
+                                    <td>Free</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Order Total : </td>
+                                    <td>PKR 0 </td>
+                                    <td></td>
+                                </tr>
+    
+    
+                            </tbody>
+                        </table>
+                        <table class="table t2">
+                            <tr>
+                                <td colspan="4" rowspan="2">
+                                    <input type="checkbox" id="checkbox" checked=""> <span class="required">*</span> Yes. I
+                                    agree the <a href="index4.html" class="a">Term Of Use</a> and I am 13 or older <br>
+                                    <span class="required">*</span> Include required field.
+                                </td>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+    
+                        </table>
+    
+                    </div>
+                    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                    <div class="">
+                        <h1 class="text-white">Your Information</h1>
+                    </div>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group row">
+
+                            <label for="name" class="col-sm-4"> <span class="required">*</span> First Name:</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" required="" id="first-name"
+                                    placeholder="Enter First Name" value=""></div>
+                        </div>
+                        <div class="form-group row">
+
+                            <label for="name" class="col-sm-4"> <span class="required">*</span> Last Name:</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" required="" id="last-name"
+                                    placeholder="Enter Last Name" value=""></div>
+                        </div>
+                        <div class="form-group row">
+
+                            <label for="name" class="col-sm-4"> <span class="required"></span> Email Address:</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email Address"
+                                    value=""></div>
+                        </div>
+                        <div class="form-group row">
+
+                            <label for="name" class="col-sm-4"> <span class="required">*</span>Mobile No:</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" required="" id="phone"
+                                    placeholder="Enter Mobile Number" value=""></div>
+                        </div>
+
+                        <div class="form-group row">
+
+                            <label for="name" class="col-sm-4"> <span class="required"></span>Residence No:</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="#" placeholder="Enter Residence Number"
+                                    value=""></div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="shipping" class="col-sm-4"> <span class="required">*</span>Delivery Address
+                                :</label>
+                            <div class="col-sm-8">
+                                <textarea cols="20" rows="3" class="form-control" id="address"></textarea></div>
+                        </div>
+
+                        <div class="col-sm-12 col-xs-12 mb-2">
+                            <button type="button" class="btn red-btn btn-block" onclick="window.location = 'index.html' ">Change Your
+                                Order</button>
+                        </div>
+
+                        <div class="confirm-buttons mb-3">
+                            <div class="col-sm-12 col-xs-12">
+                                <button type="button" class="btn  red-btn btn-block" id="submit">Place Your
+                                    Order</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="section4">
+            <div class="container">
+                <div class="row text-white justify-content-center">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <h2>ABOUT US</h2>
+                        <P class="F-P">
+                            It certainly is a matter of pride that, despite so many odds, we at Pizza point continue to
+                            present the positive image of Pakistan by setting novel example of rapid growth of food
+                            business.
+                        </P>
+                    </div>
+                    <div class="q-links col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <h2>QUICK LINKS</h2>
+                        <ul class="f-ul">
+                            <li class="f-li">PRIVACY POLICY</li>
+                            <li class="f-li">CAREERS</li>
+                            <li class="f-li">HOSPITALITY PARTNER</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <h3>CONTACT US</h3>
+                        <ul class="f-ul">
+                            <li class="f-li">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h6 class="cont">Plot # 2K, Block # 6, Sharah-e-Faisal, Near Nursery Bus Stop, PECHS
+                                    Karachi.</h6>
+                            </li>
+                            <li class="f-li">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <h6 class="cont">021-251 57 26 90/021-251 56 27 80</h6>
+                            </li>
+                            <li class="f-li">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                <h6 class="cont">0312-5285551</h6>
+                            </li>
+                            <li class="f-li">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <h6 class="cont">customer.care@pitzaa.com</h6>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <ul class="ul-f-links">
+                                <li class="li-f"><a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa fb fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="li-f">
+                                    <a href="https://twitter.com/" target="_blank"><i class="fa fb fa-twitter"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="li-f">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fb fa-instagram"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="copyright">copyright<i class="fa fa-copyright" aria-hidden="true"></i>
+                            2020 Pizza Point. All rights reserved.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
